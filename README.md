@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# 具体效果图可以参考我的博客：[黄祥的个人博客](https://www.pyfarmer.com)
+
+
 # Caffeine Theme [![Build Status](https://travis-ci.org/kelyvin/caffeine-theme.svg?branch=master)](https://travis-ci.org/kelyvin/caffeine-theme) [![GitHub version](https://badge.fury.io/gh/kelyvin%2Fcaffeine-theme.svg)](https://github.com/kelyvin/caffeine-theme/releases)
 
 ![Caffeine Coding](http://i.imgur.com/NiugCmL.png)
@@ -20,7 +22,7 @@ This theme has been upgraded to v3.0 to support the latest version of `Ghost v1.
 * [Theme Features](#theme-features)
 * [Installation](#installation)
 * [Customizations](#customizations)
-    * [Number of Posts](#number-of-posts) 
+    * [Number of Posts](#number-of-posts)
     * [Header Icon](#header-icon)
     * [Favicons](#favicons)
     * [Tags Overlay](#tags-overlay)
