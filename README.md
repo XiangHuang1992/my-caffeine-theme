@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Caffeine Theme [![Build Status](https://travis-ci.org/kelyvin/caffeine-theme.svg?branch=master)](https://travis-ci.org/kelyvin/caffeine-theme) [![GitHub version](https://badge.fury.io/gh/kelyvin%2Fcaffeine-theme.svg)](https://github.com/kelyvin/caffeine-theme/releases)
 
 ![Caffeine Coding](http://i.imgur.com/NiugCmL.png)
@@ -430,3 +431,7 @@ Edit the file `assets/scss/modules/_variables.scss`. Remember that before you de
 ### Preparing for production
 
 When you are ready and want to deploy a new version, package your code using `gulp build` command, that will minify and concatenate all the necessary code.
+=======
+# my-caffeine-theme
+one ghost theme
+>>>>>>> 7ae86efebbad34a79f7b5a0e94a6f92b2df27d6d
