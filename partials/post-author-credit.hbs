@@ -1,0 +1,26 @@
+{{#author}}
+    <div class='author-credit'>
+        <figure class="author-image">
+            <a class="img" href="{{url}}">
+                {{#if profile_image}}
+                    <img src="{{img_url profile_image}}" alt="{{name}}'s picture" class="avatar rounded" />
+                {{else}}
+                    <img src={{@blog.logo}} class="avatar rounded" />
+                {{/if}}
+            </a>
+        </figure>
+
+        <div class="author-info">
+            <h4><a href="{{url}}" class='author-name'>{{name}}</a></h4>
+            {{#if bio}}
+                <p>{{bio}}</p>
+            {{else}}
+                <p>生活就像一盒巧克力，你永远不知道下一颗是什么味道。</p>
+                <p>查看作者写的<a href="{{url}}">其它文章。</a></p>
+            {{/if}}
+            <div class="author-meta">
+                {{#if twitter}}<a href="{{twitter_url}}">{{twitter}}</a>{{/if}}
+            </div>
+        </div>
+    </div>
+{{/author}}

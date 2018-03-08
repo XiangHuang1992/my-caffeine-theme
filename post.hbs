@@ -1,0 +1,49 @@
+
+<!--载入js，在</body>之前插入即可-->
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script src="{{asset "js/jquery-top.min.js"}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{asset "js/velocity.min.js"}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{asset "js/velocity.ui.min.js"}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{asset "js/custom.js"}}" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="{{asset "css/custom.css"}}" />
+{{!< default}}
+{{#post}}
+  <article class="{{post_class}}">
+    {{> material-cover}}
+    <div class="post-card animated fade-in">
+        <a id="back-button" href="#open" title="Go back" class="hvr-grow">
+            <div class="back-button">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+        </a>
+        <div class="post-container">
+            <div class="post-header">
+                <div class="meta">
+                    <time datetime="{{date published_at format="MMMM DD, YYYY"}}">{{date published_at timeago="true"}}</time>
+                    <span class="tags">{{tags prefix="发布 " separator=" "}}</span>
+                    <span class="reading-time"> ~ <span></span> read.</span>
+                </div>
+                <h1 id="post-title">
+                    {{{title}}}
+                </h1>
+                <div class="share">
+                    {{> share }}
+                </div>
+            </div>
+            {{#is "post"}}
+                {{> "toc"}}
+            {{/is}}
+             <div class="post-content">
+                {{content}}
+            </div>
+            {{> post-author-credit}}
+            {{> comments}}
+        </div>
+    </div>
+    {{> post-pagination}}
+  </article>
+
+{{/post}}

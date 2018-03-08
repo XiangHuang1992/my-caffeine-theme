@@ -1,0 +1,138 @@
+.archives .item {
+    padding: 20px 0 12px 120px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.archives h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 0 0 -120px;
+    float: left;
+}
+
+.archives-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.archives-list li {
+    padding: 3px 0;
+    overflow: hidden;
+}
+
+.archives-list time {
+    margin-right: 5px;
+    color: #999;
+    display: inline-block;
+    width: 35px;
+    font-family: monospace;
+}
+
+/* ==========================================================================
+   12. Widget
+   ========================================================================== */
+
+.widget {
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    filter: Alpha(opacity=10, Style=0);
+    opacity: 0.60;
+    position: static;
+    top: 0%;
+    z-index: 20;
+    padding: 0 5px;
+    right: 1%;
+}
+
+.widget-title {
+    padding: 10px 10px 0px 0px;
+    font-size: 15px;
+    border-bottom: 2px solid #EAEAEA;
+    font-weight: normal;
+    position: relative;
+    margin: 0px 10px;
+    line-height: 20px;
+    color: #2C3F51;
+    font-weight: 700;
+}
+
+.widget-title-meta {
+    display: inline-block;
+    height: 30px;
+    border-bottom: 2px solid #017e66;
+    margin-bottom: -2px;
+}
+
+.widget-toc-fixed {
+    top: 0px;
+    width: 340px;
+    position: fixed;
+    z-index: 2;
+}
+
+.toc {
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.toc a {
+    font-size: 14px;
+    color: #009a61;
+    position: relative;
+}
+
+.toc a:hover {
+    color: #004e31;
+}
+
+.toc>li.active>a, .toc>li li.active>a {
+    color: #2C3F51;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   14. BackTop Button
+   ========================================================================== */
+
+.backTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    width: 50px;
+    display: none;
+}
+
+.backTop .btn {
+    margin-top: 2px;
+    height: 50px;
+    display: block;
+    padding: 0;
+    width: 100%;
+    opacity: .4;
+}
+
+.btn-inverse {
+    background: #666;
+    color: #FFF !important;
+}
+
+.btn-minty {
+    background: #009a61;
+}
+
+.backTop .btn:hover {
+    background: #009a61;
+    opacity: .9;
+    color: #FFF !important;
+}
+
+.backTop .btn i {
+    position: relative;
+    top: -1px;
+}
+
+/* pay_tour */
